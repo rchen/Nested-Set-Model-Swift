@@ -13,7 +13,50 @@
 		7BE40AC420FDCA05000A8AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE40AC220FDCA05000A8AC0 /* Main.storyboard */; };
 		7BE40AC620FDCA06000A8AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE40AC520FDCA06000A8AC0 /* Assets.xcassets */; };
 		7BE40AC920FDCA06000A8AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE40AC720FDCA06000A8AC0 /* LaunchScreen.storyboard */; };
+		7BE40ADE20FDCA22000A8AC0 /* NestedSetModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */; };
+		7BE40AE520FDCA22000A8AC0 /* NestedSetModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40AE420FDCA22000A8AC0 /* NestedSetModelTests.swift */; };
+		7BE40AE720FDCA22000A8AC0 /* NestedSetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE40AD720FDCA22000A8AC0 /* NestedSetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE40AEA20FDCA22000A8AC0 /* NestedSetModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */; };
+		7BE40AEB20FDCA22000A8AC0 /* NestedSetModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BE40ADF20FDCA22000A8AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BE40AB120FDCA04000A8AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE40AD420FDCA22000A8AC0;
+			remoteInfo = NestedSetModel;
+		};
+		7BE40AE120FDCA22000A8AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BE40AB120FDCA04000A8AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE40AB820FDCA04000A8AC0;
+			remoteInfo = "NestedSetModel-iOS";
+		};
+		7BE40AE820FDCA22000A8AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BE40AB120FDCA04000A8AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE40AD420FDCA22000A8AC0;
+			remoteInfo = NestedSetModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BE40AEF20FDCA22000A8AC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7BE40AEB20FDCA22000A8AC0 /* NestedSetModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7BE40AB920FDCA04000A8AC0 /* NestedSetModel-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NestedSetModel-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +67,12 @@
 		7BE40AC520FDCA06000A8AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE40AC820FDCA06000A8AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BE40ACA20FDCA06000A8AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestedSetModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE40AD720FDCA22000A8AC0 /* NestedSetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedSetModel.h; sourceTree = "<group>"; };
+		7BE40AD820FDCA22000A8AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE40ADD20FDCA22000A8AC0 /* NestedSetModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedSetModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE40AE420FDCA22000A8AC0 /* NestedSetModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSetModelTests.swift; sourceTree = "<group>"; };
+		7BE40AE620FDCA22000A8AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE40AEA20FDCA22000A8AC0 /* NestedSetModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE40AD120FDCA22000A8AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE40ADA20FDCA22000A8AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE40ADE20FDCA22000A8AC0 /* NestedSetModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				7BE40ABB20FDCA04000A8AC0 /* NestedSetModel-iOS */,
+				7BE40AD620FDCA22000A8AC0 /* NestedSetModel */,
+				7BE40AE320FDCA22000A8AC0 /* NestedSetModelTests */,
 				7BE40ABA20FDCA04000A8AC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				7BE40AB920FDCA04000A8AC0 /* NestedSetModel-iOS.app */,
+				7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */,
+				7BE40ADD20FDCA22000A8AC0 /* NestedSetModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +136,36 @@
 			path = "NestedSetModel-iOS";
 			sourceTree = "<group>";
 		};
+		7BE40AD620FDCA22000A8AC0 /* NestedSetModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BE40AD720FDCA22000A8AC0 /* NestedSetModel.h */,
+				7BE40AD820FDCA22000A8AC0 /* Info.plist */,
+			);
+			path = NestedSetModel;
+			sourceTree = "<group>";
+		};
+		7BE40AE320FDCA22000A8AC0 /* NestedSetModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE40AE420FDCA22000A8AC0 /* NestedSetModelTests.swift */,
+				7BE40AE620FDCA22000A8AC0 /* Info.plist */,
+			);
+			path = NestedSetModelTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BE40AD220FDCA22000A8AC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE40AE720FDCA22000A8AC0 /* NestedSetModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7BE40AB820FDCA04000A8AC0 /* NestedSetModel-iOS */ = {
@@ -77,15 +175,54 @@
 				7BE40AB520FDCA04000A8AC0 /* Sources */,
 				7BE40AB620FDCA04000A8AC0 /* Frameworks */,
 				7BE40AB720FDCA04000A8AC0 /* Resources */,
+				7BE40AEF20FDCA22000A8AC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7BE40AE920FDCA22000A8AC0 /* PBXTargetDependency */,
 			);
 			name = "NestedSetModel-iOS";
 			productName = "NestedSetModel-iOS";
 			productReference = 7BE40AB920FDCA04000A8AC0 /* NestedSetModel-iOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7BE40AD420FDCA22000A8AC0 /* NestedSetModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE40AEC20FDCA22000A8AC0 /* Build configuration list for PBXNativeTarget "NestedSetModel" */;
+			buildPhases = (
+				7BE40AD020FDCA22000A8AC0 /* Sources */,
+				7BE40AD120FDCA22000A8AC0 /* Frameworks */,
+				7BE40AD220FDCA22000A8AC0 /* Headers */,
+				7BE40AD320FDCA22000A8AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedSetModel;
+			productName = NestedSetModel;
+			productReference = 7BE40AD520FDCA22000A8AC0 /* NestedSetModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BE40ADC20FDCA22000A8AC0 /* NestedSetModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE40AF020FDCA22000A8AC0 /* Build configuration list for PBXNativeTarget "NestedSetModelTests" */;
+			buildPhases = (
+				7BE40AD920FDCA22000A8AC0 /* Sources */,
+				7BE40ADA20FDCA22000A8AC0 /* Frameworks */,
+				7BE40ADB20FDCA22000A8AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BE40AE020FDCA22000A8AC0 /* PBXTargetDependency */,
+				7BE40AE220FDCA22000A8AC0 /* PBXTargetDependency */,
+			);
+			name = NestedSetModelTests;
+			productName = NestedSetModelTests;
+			productReference = 7BE40ADD20FDCA22000A8AC0 /* NestedSetModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +236,13 @@
 				TargetAttributes = {
 					7BE40AB820FDCA04000A8AC0 = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					7BE40AD420FDCA22000A8AC0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7BE40ADC20FDCA22000A8AC0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7BE40AB820FDCA04000A8AC0;
 					};
 				};
 			};
@@ -116,6 +260,8 @@
 			projectRoot = "";
 			targets = (
 				7BE40AB820FDCA04000A8AC0 /* NestedSetModel-iOS */,
+				7BE40AD420FDCA22000A8AC0 /* NestedSetModel */,
+				7BE40ADC20FDCA22000A8AC0 /* NestedSetModelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +274,20 @@
 				7BE40AC920FDCA06000A8AC0 /* LaunchScreen.storyboard in Resources */,
 				7BE40AC620FDCA06000A8AC0 /* Assets.xcassets in Resources */,
 				7BE40AC420FDCA05000A8AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE40AD320FDCA22000A8AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE40ADB20FDCA22000A8AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +304,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BE40AD020FDCA22000A8AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE40AD920FDCA22000A8AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE40AE520FDCA22000A8AC0 /* NestedSetModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BE40AE020FDCA22000A8AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE40AD420FDCA22000A8AC0 /* NestedSetModel */;
+			targetProxy = 7BE40ADF20FDCA22000A8AC0 /* PBXContainerItemProxy */;
+		};
+		7BE40AE220FDCA22000A8AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE40AB820FDCA04000A8AC0 /* NestedSetModel-iOS */;
+			targetProxy = 7BE40AE120FDCA22000A8AC0 /* PBXContainerItemProxy */;
+		};
+		7BE40AE920FDCA22000A8AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE40AD420FDCA22000A8AC0 /* NestedSetModel */;
+			targetProxy = 7BE40AE820FDCA22000A8AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7BE40AC220FDCA05000A8AC0 /* Main.storyboard */ = {
@@ -316,6 +509,102 @@
 			};
 			name = Release;
 		};
+		7BE40AED20FDCA22000A8AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SHCFRA43LM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NestedSetModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsuehcheng.NestedSetModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BE40AEE20FDCA22000A8AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SHCFRA43LM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NestedSetModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsuehcheng.NestedSetModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BE40AF120FDCA22000A8AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHCFRA43LM;
+				INFOPLIST_FILE = NestedSetModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsuehcheng.NestedSetModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSetModel-iOS.app/NestedSetModel-iOS";
+			};
+			name = Debug;
+		};
+		7BE40AF220FDCA22000A8AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHCFRA43LM;
+				INFOPLIST_FILE = NestedSetModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsuehcheng.NestedSetModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSetModel-iOS.app/NestedSetModel-iOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +622,24 @@
 			buildConfigurations = (
 				7BE40ACE20FDCA06000A8AC0 /* Debug */,
 				7BE40ACF20FDCA06000A8AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE40AEC20FDCA22000A8AC0 /* Build configuration list for PBXNativeTarget "NestedSetModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE40AED20FDCA22000A8AC0 /* Debug */,
+				7BE40AEE20FDCA22000A8AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE40AF020FDCA22000A8AC0 /* Build configuration list for PBXNativeTarget "NestedSetModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE40AF120FDCA22000A8AC0 /* Debug */,
+				7BE40AF220FDCA22000A8AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
